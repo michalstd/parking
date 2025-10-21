@@ -1,4 +1,7 @@
-﻿public class ExitRequest
+﻿namespace Parking.Api.DTOs
 {
-    public string VehicleReg { get; set; } = null!;
+    public class ExitRequest
+    {
+        public string VehicleReg { get; set; } = null!;
+    }
 }

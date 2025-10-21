@@ -1,5 +1,8 @@
-﻿public class ParkingStatusResponse
+﻿namespace Parking.Api.DTOs
 {
-    public int AvailableSpaces { get; set; }
-    public int OccupiedSpaces { get; set; }
+    public class ParkingStatusResponse
+    {
+        public int AvailableSpaces { get; set; }
+        public int OccupiedSpaces { get; set; }
+    }
 }
